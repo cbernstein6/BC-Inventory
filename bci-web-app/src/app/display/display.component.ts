@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Item } from '../models/item.model';
 
 @Component({
   selector: 'app-display',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './display.component.css'
 })
 export class DisplayComponent {
+  @Input() currItem?: Item;
 
+  
 }

@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Item } from '../models/item.model';
 import { FormsModule } from '@angular/forms';
 import { ApiService } from '../api.service';
@@ -22,6 +22,8 @@ export class SidebarComponent implements OnInit {
   
   itemList: Item[] = [];
 
+  @Output() itemEmitter = new EventEmitter<Item>();
+
   constructor(private http: ApiService){}
 
 
@@ -40,6 +42,8 @@ export class SidebarComponent implements OnInit {
       }, error => {
         console.log(error);
       });
+    }else {
+      this.itemEmitter.emit(item);
     }
   }
 
