@@ -1,2 +1,4 @@
-bci-web-app/obj/
+bci-userauth/obj/
 bci-server-app/obj/
+bci-userauth/bin/
+bci-server-app/bin/
