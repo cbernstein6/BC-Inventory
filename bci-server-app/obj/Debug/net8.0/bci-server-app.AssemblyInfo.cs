@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bci-server-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81d07d5f4a5f7a47f465ad4fe825a219f5be20ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63924d802ee6c2644bfba340ec14449627e521ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("bci-server-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bci-server-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,1 +1,8 @@
-{{currItem?.title}}
+<div class="item-display">
+   <h2 *ngIf="currItem?.title">Title: {{currItem?.title}}</h2>
+    <h3 *ngIf="currItem?.title">Description: {{currItem?.description}}</h3>
+    <h3 *ngIf="currItem?.title">Category: {{currItem?.category}}</h3>
+    <h3 *ngIf="currItem?.title">Image: {{currItem?.imageUrl}}</h3>
+    <h3 *ngIf="currItem?.title">Price: {{currItem?.price}}</h3>
+    <h3 *ngIf="currItem?.title">Quantity: {{currItem?.quantity}}</h3>
+</div>

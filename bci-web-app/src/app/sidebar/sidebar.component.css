@@ -1,14 +1,15 @@
-.sidebar {
-    border: 2px solid black;
-    border-radius: 10px;
-    width: 35vw;
-    height: auto;
-}
+
 
 .right {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.add-item {
+  display: flex;
+  flex-direction: column;
 }
 
 hr {

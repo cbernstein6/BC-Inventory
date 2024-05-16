@@ -1,0 +1,10 @@
+
+<div class="app">
+    <h2 class="title">Balloon City Inventory</h2>
+
+
+    <div class="display">
+        <app-sidebar (itemEmitter)="fetchItem($event)"></app-sidebar>
+        <app-display [currItem]="item"></app-display>
+    </div>
+</div>

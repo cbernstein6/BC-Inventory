@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3aSFZ1Zbd920TdF333lrJsX+o0SZudQQDgDPn652eD0=",
+  "Source": "bci-userauth",
+  "BasePath": "_content/bci-userauth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
