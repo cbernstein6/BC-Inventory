@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JQU6WOJmrhc+T+fh4HyQ2JT+EbcKNyJyQ4lyGk5CdAw=",
+  "Source": "bci-server-app",
+  "BasePath": "_content/bci-server-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

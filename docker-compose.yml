@@ -1,0 +1,14 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./bci-server-app
+      dockerfile: Dockerfile
+    ports:
+      - "5094:80"
+  frontend:
+    build:
+      context: ./bci-web-app
+      dockerfile: Dockerfile
+    ports:
+      - "4200:80"

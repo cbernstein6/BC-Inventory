@@ -1,0 +1,27 @@
+<div class="sidebar">
+    <div class="upper">
+        <div class="left">
+            <h2>Balloon City Inventory</h2>
+        </div>
+        <div class="right">
+            <div class="add-item">
+                <button (click)="showInput()">Add</button>
+                <input type="text" *ngIf="addItem" (keyup.enter)="addToList(inputText)" [(ngModel)]="inputText">
+            </div>
+            
+            <div class="remove-item">
+                <button style="background-color: red;" (click)="onClickRemoval()">Remove</button>
+            </div> 
+        </div>
+        <hr>
+
+    </div>
+    <div class="lower">
+        <div class="list">
+            <h2 *ngIf="emptyList()">Add some Items</h2>
+
+            <button *ngFor="let item of itemList" (click)="displayItem(item)" class="deletable" [class.inactive]="!removeItem">{{ item.title }}</button>
+            
+        </div>
+    </div>
+</div>
