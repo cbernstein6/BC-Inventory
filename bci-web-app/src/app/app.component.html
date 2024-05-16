@@ -1,3 +1,6 @@
-<app-sidebar (itemEmitter)="fetchItem($event)"></app-sidebar>
 
-<app-display></app-display>
+<div class="app">
+    <app-sidebar (itemEmitter)="fetchItem($event)"></app-sidebar>
+
+    <app-display [currItem]="item"></app-display>
+</div>

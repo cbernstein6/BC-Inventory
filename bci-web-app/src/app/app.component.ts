@@ -24,7 +24,8 @@ export class AppComponent {
 
   fetchItem(currItem: Item) : void {
     this.item = currItem;
-    console.log(this.item.category);
   }
+
+  
 
 }
