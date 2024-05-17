@@ -1,4 +1,5 @@
 <ul>
-<li>Login</li>
-<li>Home</li>
+    <a><li routerLink="">Login</li></a>
+    <a><li routerLink="/home">Home</li></a>
+    <a *ngIf="userLoggedIn()">{{username}}</a>
 </ul>

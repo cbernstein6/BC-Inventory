@@ -1,1 +1,12 @@
-<p>login works!</p>
+<form (ngSubmit)="verifyUser(loginForm)" #loginForm="ngForm">
+    <div class="username">
+        <label>Username: </label>
+        <input type="text" name="username" ngModel>
+    </div>
+    <div class="password">
+        <label>Password: </label>
+        <input type="text" name="password" ngModel>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
