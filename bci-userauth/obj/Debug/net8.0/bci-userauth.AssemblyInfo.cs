@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bci-userauth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63924d802ee6c2644bfba340ec14449627e521ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1362d9a30bde8c5ad20217f4a56ad01dec75592f")]
 [assembly: System.Reflection.AssemblyProductAttribute("bci-userauth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bci-userauth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

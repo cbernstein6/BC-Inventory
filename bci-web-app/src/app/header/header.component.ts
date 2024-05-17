@@ -1,12 +1,21 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [RouterModule, CommonModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  username?: string | null;
+  userLoggedIn() {
+    return this.username != null;
+  }
 
+  ngOnInit() {
+    this.username = localStorage.getItem('user')+" is the username";
+  }
 }

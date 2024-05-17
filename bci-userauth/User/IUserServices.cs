@@ -9,7 +9,7 @@ namespace bci_userauth.Services
     public interface IUserServices
     {
         public Task<User> AddUser(User user);
-        public Task<User> GetUser(int id);
+        public Task<User> GetUser(User user);
         public Task<IEnumerable<User>> GetUsers();
         public Task RemoveUser(int id);
         public Task<User> UpdateUser(User user);

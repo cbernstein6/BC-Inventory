@@ -18,10 +18,12 @@ namespace bci_userauth.Services
         }
 
 
-        public Task<User> GetUser(int id){
-            User user = _context.Users.Find(id);
-
-            return Task.FromResult<User>(user);
+        public Task<User> GetUser(User user){
+            User first = _context.Users.FirstOrDefault(u => u.UserName == user.UserName && u.Password ==  user.Password);
+            if(first == null) 
+                throw new Exception("User not found");
+                
+            return Task.FromResult<User>(first);
         }
 
 

@@ -6,7 +6,6 @@ import { ApiService } from './api.service';
 import { HttpClientModule } from '@angular/common/http';
 import { Item } from './models/item.model';
 import { HeaderComponent } from "./header/header.component";
-import { AppRoutingModule } from './app-routing.module';
 
 
 @Component({
@@ -19,5 +18,5 @@ import { AppRoutingModule } from './app-routing.module';
 })
 
 export class AppComponent {
-  
+
 }
