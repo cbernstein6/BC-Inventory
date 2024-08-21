@@ -21,15 +21,17 @@ export class SidebarComponent implements OnInit {
   removeItem: boolean = false;
   
   itemList: Item[] = [];
+  numbers: number[] = [];
 
   @Output() itemEmitter = new EventEmitter<Item>();
 
   constructor(private http: ApiService){}
-
+  
 
 
   ngOnInit(){
     this.refreshList();
+    this.numbers = Array.from({ length: 20 }, (_, i) => i + 1);
   }
   
 

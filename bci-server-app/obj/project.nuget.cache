@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tU9QtTnQAgo=",
+  "dgSpecHash": "SxHsT0pV8Eo=",
   "success": true,
-  "projectFilePath": "/Users/chadbernstein/Desktop/Projects/bci/bci-server-app/bci-server-app.csproj",
+  "projectFilePath": "/Users/chadbernstein/Desktop/Projects/BC-Inventory/bci-server-app/bci-server-app.csproj",
   "expectedPackageFiles": [
     "/Users/chadbernstein/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/chadbernstein/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

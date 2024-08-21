@@ -52,19 +52,22 @@ namespace bci_server_app.Items
 
         public Task<Item> UpdateItem(Item item)
         {
-            // Item update = list.Find(x => x.Id == item.Id);
+            Item update = _context.Items.FirstOrDefault(x => x.Id == item.Id);
 
-            // if (item != null)
-            // {
-            //     update.Title = item.Title;
-            //     update.Description = item.Description;
-            //     update.Category = item.Category;
-            //     update.ImageUrl = item.ImageUrl;
-            //     update.Price = item.Price;
-            //     update.Quantity = item.Quantity;
-            // }else throw new Exception("Item not found");
+            if (item != null)
+            {
+                update.Title = item.Title;
+                update.Description = item.Description;
+                update.Category = item.Category;
+                update.ImageUrl = item.ImageUrl;
+                update.Price = item.Price;
+                update.Quantity = item.Quantity;
+            }
+            else throw new KeyNotFoundException("Item not found");
 
-            return Task.FromResult<Item>(null);
+            _context.SaveChanges();
+
+            return Task.FromResult(update);
         }
     }
 }

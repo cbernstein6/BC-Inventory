@@ -62,6 +62,7 @@ hr {
     border: 1px solid #ccc;
     padding: 10px;
     padding-right: 3em;
+    min-width: 80px;
   }
   
   .deletable:not(.inactive)::after {

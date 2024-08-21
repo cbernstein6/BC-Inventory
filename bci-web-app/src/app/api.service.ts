@@ -23,6 +23,10 @@ export class ApiService {
     return this.http.post('http://localhost:5094/additem', item);
   }
 
+  updateItem(item: Item) {
+    return this.http.put('http://localhost:5094/updateitem', item);
+  }
+
   getUser(user: User) {
     return this.http.post('http://localhost:5021/login', user);
   }

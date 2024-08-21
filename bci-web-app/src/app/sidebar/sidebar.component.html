@@ -5,6 +5,9 @@
             <div class="add-item">
                 <button (click)="showInput()">Add</button>
                 <input type="text" *ngIf="addItem" (keyup.enter)="addToList(inputText)" [(ngModel)]="inputText">
+                <select id="numberDropdown">
+                    <option *ngFor="let num of numbers" [value]="num">{{ num }}</option>
+                </select>
             </div>
             
             <div class="remove-item">

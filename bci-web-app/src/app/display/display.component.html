@@ -4,5 +4,9 @@
     <h3 *ngIf="currItem?.title">Category: {{currItem?.category}}</h3>
     <h3 *ngIf="currItem?.title">Image: {{currItem?.imageUrl}}</h3>
     <h3 *ngIf="currItem?.title">Price: {{currItem?.price}}</h3>
-    <h3 *ngIf="currItem?.title">Quantity: {{currItem?.quantity}}</h3>
+    <div class="quantity">
+        <h3 *ngIf="currItem?.title">Quantity: {{currItem?.quantity}}</h3>
+        <button *ngIf="currItem?.title" (click)="incrementQuantity()" class="increase">+</button>
+        <button *ngIf="currItem?.title" (click)="decrementQuantity()" class="decrease">-</button>
+    </div>
 </div>

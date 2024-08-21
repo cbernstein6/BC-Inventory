@@ -4842,11 +4842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chadbernstein/Desktop/Projects/bci/bci-server-app/bci-server-app.csproj",
+      "projectUniqueName": "/Users/chadbernstein/Desktop/Projects/BC-Inventory/bci-server-app/bci-server-app.csproj",
       "projectName": "bci-server-app",
-      "projectPath": "/Users/chadbernstein/Desktop/Projects/bci/bci-server-app/bci-server-app.csproj",
+      "projectPath": "/Users/chadbernstein/Desktop/Projects/BC-Inventory/bci-server-app/bci-server-app.csproj",
       "packagesPath": "/Users/chadbernstein/.nuget/packages/",
-      "outputPath": "/Users/chadbernstein/Desktop/Projects/bci/bci-server-app/obj/",
+      "outputPath": "/Users/chadbernstein/Desktop/Projects/BC-Inventory/bci-server-app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/chadbernstein/.nuget/NuGet/NuGet.Config"
