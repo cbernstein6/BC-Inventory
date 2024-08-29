@@ -1,2 +1,12 @@
 bci-userauth/obj/
 bci-server-app/obj/
+
+bci-web-app/dist
+bci-web-app/node_modules
+bci-web-apppackage-lock.json
+bci-web-app/.angular
+bci-web-app/.vscode
+bci-web-app/*.DS_Store
+bci-web-app/Thumbs.db
+bci-web-app/.build
+bci-web-app/.temp
