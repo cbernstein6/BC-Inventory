@@ -14,4 +14,8 @@ RUN dotnet publish -c Release -o out bci-server-app.csproj
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/out .
+
+EXPOSE 5094
+EXPOSE 7258
+
 ENTRYPOINT ["dotnet", "bci-server-app.dll"]
